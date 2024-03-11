@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #182c61;
+}
+
+h1,
+h2,
+h3{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    background-color: #dee3f5;
+}
+/*----------------------------------------- Header --- */
+/*----------------------------------------- Header --- */
+/*----------------------------------------- Header --- */
+header{
+    background-color: #182c61;
+    color: #fff;
+    padding: 18px 0;
+}
+header h1{
+    font-size: 2.5em;
+    color: #fff;
+}
+header li{
+    display: inline;
+    margin-left: 16px;
+}
+header nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-family: "Bungee", sans-serif;
+}
+
+header nav li a:hover{
+    text-decoration: underline;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+/*--------------------------------------- Main --- */
+/*--------------------------------------- Main --- */
+/*--------------------------------------- Main --- */
+
+main .container{
+    display: flex;
+    width: 80%;
+    margin: 45px auto 0;
+}
+
+.sections{
+    padding: 0 10px;
+}
+
+.sections h1{
+    font-size: 2.5em;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.imgs{
+    padding-top: 30px;
+    ;
+}
+
+.imgs img{
+    height: 32px;
+    margin-right: 8px;
+}
+
+
+/*--------------------------------------- Footer --- */
+/*--------------------------------------- Footer --- */
+/*--------------------------------------- Footer --- */
+
+footer .container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+footer h1{
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+footer h2{
+    margin-bottom: 15px;
+}
+
+.colunas-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer form input,
+footer form textarea,
+footer form button{
+    display: block;
+    width: 320px;
+    padding: 8px;
+    margin-bottom: 8px;
+    font-size: 1.2em;
+}
+
+footer button{
+    background-color: #182c61;
+    color: #fff;
+    font-family: "Bungee", sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+footer button:hover{
+    background-color: #2b54c2;
+}
+
+footer textarea{
+    
+    resize: none;
+}
+
+.colunas-footer section{
+    width: 30%;
+}
+
+.colunas-footer img{
+    height: 40px;
+    padding-right: 15px;
+}
+
+.footer-copy{
+    background-color: #182c61;
+    height: 46px;
+    position: relative;
+}
+.footer-copy p{
+    color: #dee3f5;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+
